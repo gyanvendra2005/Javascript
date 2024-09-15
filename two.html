@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<style>
+body{
+    background-color: rgb(55, 52, 52);
+    color: antiquewhite;
+}
+</style>
+<body>
+    
+    <ul class="language">
+        <li>
+            javascript
+        </li>
+    </ul>
+
+</body>
+<script>
+    // const language = document.querySelector('.language')
+    // console.log(language);
+    // const li =  document.createElement('li')
+    // li.innerText= 'javascript2'
+    // language.appendChild(li)
+
+    function addLanguage(langName) {
+         
+        const li =  document.createElement('li')
+        li.innerText= langName
+        document.querySelector('.language').appendChild(li)
+
+    }
+    addLanguage('gyani')
+</script>
+</html>
